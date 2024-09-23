@@ -1,6 +1,7 @@
 {
-    "intro": "Selamat datang",
-    "template.menu": "Ketik angka *{{number}}* : untuk *{{menu}}*",
-    "menu.daftarProduk": "🧰 Daftar Produk",
-    "menu.alamatKantor": "Alamat Kantor"
+  "intro": "Selamat datang di Kost Cahaya Ilahi, semoga harimu selalu terang",
+  "template.menu": "Ketik angka *{{number}}* : untuk *{{menu}}*",
+  "menu.kostLocation": "📍 Lokasi Kost",
+  "menu.roomType": "🚪 Tipe Kamar",
+  "menu.contactPerson": "👤 Kontak Lebih Lanjut"
 }

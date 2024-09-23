@@ -4,8 +4,9 @@ const f = require("./utils/Formatter");
 
 const router = new Router();
 
-router.menu(f("menu.daftarProduk"), [BotController, "product"]);
-router.menu(f("menu.alamatKantor"), [BotController, "alamatKantor"]);
+router.menu(f("menu.kostLocation"), [BotController, "kostLocation"]);
+router.menu(f("menu.roomType"), [BotController, "roomType"]);
+router.menu(f("menu.contactPerson"), [BotController, "contactPerson"]);
 router.keyword("*", [BotController, "introduction"]);
 
 module.exports = router;

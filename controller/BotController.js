@@ -4,23 +4,31 @@ const f = require("../utils/Formatter");
 module.exports = class BotController extends Controller {
 
 
-    async introduction(request) {
-      return Response.menu.fromArrayOfString(
-        [
-          f("menu.daftarProduk"),
-          f("menu.alamatKantor")
-        ],
-        f("intro", [request.name]),
-        f("template.menu")
-      );
-    }
+  async introduction(request) {
+    return Response.menu.fromArrayOfString(
+      [
+        f("menu.kostLocation"),
+        f("menu.roomType"),
+        f("menu.contactPerson")
+      ],
+      f("intro", [request.name]),
+      f("template.menu")
+    );
+  }
 
-    async product(request) {
-      return this.reply("Ini produk digital saya, bisa dikunjungi di http://dewakoding.com")
-    }
+  async kostLocation(request) {
+    return this.reply("Lokasi kost kami ada disini https://maps.app.goo.gl/MGJDNvVJPtSMet539")
+  }
 
-    async alamatKantor(request) {
-      return this.reply("Alamat kantor kami ada di Jakarta")
-    }
+  async roomType(request) {
+    return Response.text.fromString(`Beberapa Jenis Room kost
+1. Tipe AAC: AC, kamar mandi dalam, listrik exclude
+2. Tipe ABC: AC, kamar mandi luar, listrik include
+3. Tipe BC: Non AC, kamar mandi luar, listrik include`)
+  }
+
+  async contactPerson(request) {
+    return this.reply("Untuk kontak lebih lanjut silahkan hubungi nomor wa.me/+6285713798010")
+  }
 
 }
