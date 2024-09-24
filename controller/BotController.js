@@ -12,7 +12,8 @@ module.exports = class BotController extends Controller {
         f("menu.contactPerson")
       ],
       f("intro", [request.name]),
-      f("template.menu")
+      f("template.menu"),
+      f("template.ending"),
     );
   }
 

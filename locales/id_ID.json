@@ -1,6 +1,7 @@
 {
-  "intro": "Selamat datang di Kost Cahaya Ilahi, semoga harimu selalu terang",
-  "template.menu": "Ketik angka *{{number}}* : untuk *{{menu}}*",
+  "intro": "Selamat datang di Kost Cahaya Ilahi, semoga harimu selalu terang \nMenu yang tersedia:",
+  "template.menu": "*{{number}}*. *{{menu}}*",
+  "template.ending": "Ketik angka misalkan '1' untuk mengakses menu",
   "menu.kostLocation": "📍 Lokasi Kost",
   "menu.roomType": "🚪 Tipe Kamar",
   "menu.contactPerson": "👤 Kontak Lebih Lanjut"
