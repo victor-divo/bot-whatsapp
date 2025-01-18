@@ -2,7 +2,9 @@
   "intro": "Selamat datang di Kost Cahaya Ilahi, semoga harimu selalu terang \nMenu yang tersedia:",
   "template.menu": "*{{number}}*. *{{menu}}*",
   "template.ending": "Ketik angka misalkan '1' untuk mengakses menu",
-  "menu.kostLocation": "📍 Lokasi Kost",
+  "menu.aboutUs": "🌟 About Us",
   "menu.roomType": "🚪 Tipe Kamar",
-  "menu.contactPerson": "👤 Kontak Lebih Lanjut"
+  "menu.contactPerson": "👤 Kontak Lebih Lanjut",
+  "menu.kostLocation": "📍 Lokasi Kost",
+  "menu.roomAvalibility": "🔍 Cek Ketersediaan Kamar"
 }
